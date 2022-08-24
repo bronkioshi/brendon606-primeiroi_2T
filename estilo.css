@@ -90,11 +90,26 @@ li a:hover {
   height: 35px;
   background-color: black;
   color: white;
-  bottom: 0%;
+  bottom: -20%;
   display: flex;
-  justify-content: center;
+  justify-content: initial;
 }
 .conteudo {
   position: absolute;
   top: 45px;
+}
+.caixaursoP {
+  position: absolute;
+  top: 400px;
+  width: 90%;
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+  margin: 20px;
+  border-color: black;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
